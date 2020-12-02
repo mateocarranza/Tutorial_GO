@@ -16,7 +16,7 @@ Para poder entender un poco más de Go vamos a realizar una Rest Api.
 
 Lo primero que vamos a hacer es realizar la arquitectura de nuestro proyecto.
 
-<p align="center"> <img src="./imagenes/arquitectura.:PNG" width="350"/>  </p> 
+<p align="center"> <img src="imagenes/arquitectura.:PNG" width="350"/>  </p> 
 
 Dentro del myproyecto/main.go es donde daremos arranque a nuestra aplicación.
 
@@ -26,6 +26,8 @@ dentro de pkg/server encontraremos todo lo necesario para que funcione nuestro s
 
 ## comencemos 
  
+lo primero que vamos a hacer es arrancar nuestro servidor HTTP
+
 <pre><code>
     package main
  
@@ -36,8 +38,10 @@ dentro de pkg/server encontraremos todo lo necesario para que funcione nuestro s
     )
  
     func main() {
- 
+        
+    log.Fatal(http.ListenAndServe(":8080", nil))
     fmt.Println("Server abierto en http://localhost:8080")
  
     }
 </code></pre>
+
