@@ -16,7 +16,7 @@ Para poder entender un poco más de Go vamos a realizar una Rest Api.
 
 Lo primero que vamos a hacer es realizar la arquitectura de nuestro proyecto.
 
-<p align="center"> <img src="imagenes/arquitectura.:PNG" width="350"/>  </p> 
+ ![Screenshot](arquitectura.PNG) 
 
 Dentro del myproyecto/main.go es donde daremos arranque a nuestra aplicación.
 
@@ -45,3 +45,13 @@ lo primero que vamos a hacer es arrancar nuestro servidor HTTP
     }
 </code></pre>
 
+Una vez echo esto ya podremos correr nuestro servidor, pero como no tiene nada si entramos al localhost:8080 no se encuentra nada
+
+### Router de Gorilla
+para realizar esta Rest Api vamos a utilizar una librereria llamada Gorrila mux, se pueden realizar los endpoint si esta libreria pero asi es mas simple
+
+para agregar la libreria simplemente ejecutamos el siguiente codigo
+
+<pre><code>
+$ go get -u github.com/gorilla/mux
+</code></pre>
