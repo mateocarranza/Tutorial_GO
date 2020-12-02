@@ -3,10 +3,10 @@
 Go, también conocido como Golang o Google Go,es un lenguaje de programación concurrente, compilado de código abierto (open source) relativamente nuevo ya que data de once años de antigüedad hablando históricamente, donde su trayectoria ha permitido ir mejorando, puliendo y madurando todos sus detalles. Se encuentra inspirado en la sintaxis de lenguaje C y Algol, con tipado estático
 
 ## Instalación de Golang
-Lo primero que hay que hacer es instalar go para ello:
- -Iremos a su página principal https://golang.org/ .
- -Tocar el botón de descargar.
- -Elegimos en qué sistemas queremos descargarlo.
+Lo primero que hay que hacer es instalar go para ello:<br/>
+ -Iremos a su página principal https://golang.org/ .<br/>
+ -Tocar el botón de descargar.<br/>
+ -Elegimos en qué sistemas queremos descargarlo.<br/>
 
 también necesitaremos un editor de texto yo recomiendo visual code y es el que voy a utilizar para realizar este tutorial.
 
